@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="catalog_18030029.css"?>
+
+<Vehicleshop  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18030029.xsd">
+	<AboutUs>
+		<Name>car max</Name>
+		<Website>https://www.carmax.com/cars/all</Website>
+		<TelephoneNumber>(913) 982-8863</TelephoneNumber>
+		<Address>Kansas,USA</Address>
+		<logo></logo>
+		
+	</AboutUs>
+
+	<Cars>
+		<Item itemID="1001">
+				<BrandName brandID="B001">Corolla</BrandName>
+				<Description status="Unused">The Toyota Corolla is a line of subcompact and 
+				compact cars manufactured by Toyota. Introduced in 1966,the Corolla was the best-selling car
+				worldwide by 1974 and has been one of the best-sellingcars in the world since then.</Description>
+				
+				<Price tax="13%" currency="US Dollor">10599</Price>
+				<Quantity>6</Quantity>
+				<Manufacturer date="2009" manufacturerID="M001">Toyota</Manufacturer>
+				<Cartype>Fuel</Cartype>
+				<Warranty>6 months</Warranty> 					<!--optional-->
+				<Discount currency="US Dollor">2000</Discount> <!--optional-->
+				<Offer>Two wheels</Offer>  <!--optional-->
+			<Efficiency value="2.3" Horsepower ="300">
+				<Speed unit="miles/hour">60</Speed>
+				<BrakeDisk unit="millimeter" type="flat disk">45</BrakeDisk>
+			</Efficiency>
+			<Properties>
+				<Selfdrive>Available</Selfdrive> <!--optional-->
+				<Dimensions unit="millimeter">
+					<Length>4370</Length>
+					<Width>1790</Width>
+					<Height>1435</Height>
+				</Dimensions>
+				<Color>Blue</Color>
+				<Airbag>Yes</Airbag>  <!--optional-->
+				<Seats>5</Seats>
+			</Properties>
+			
+		</Item>
+		
+		<Item itemID="1002">
+				<BrandName brandID="B002">Silverado 1500 LTZ </BrandName>
+				
+				<Description status="Unused">The Silverado 1500 LTZ  is a line of subcompact and 
+				compact cars manufactured by Cherlovet.Dual-zone automatic climate control. Inside rearview auto-dimming mirror.</Description>
+				
+				<Price tax="13%" currency="US Dollor">19599</Price>
+				<Quantity>2</Quantity>
+				<Manufacturer date="2011" manufacturerID="M002">Toyota</Manufacturer>
+				<Cartype>Fuel</Cartype>
+				<Warranty>12 months</Warranty>  <!--optional-->
+				<Offer>Blender machine</Offer>  <!--optional-->
+			<Efficiency value="2.5" Horsepower="315">
+				<Speed unit="miles/hour">76</Speed>
+				<BrakeDisk unit="millimeter" type="drilled disk">39</BrakeDisk> 
+			</Efficiency>
+			<Properties>
+
+				<Dimensions unit="millimeter">
+					<Length>5210</Length>
+					<Width>1700</Width>
+					<Height>1432</Height>
+				</Dimensions>
+				<Color>Red</Color>
+				<Airbag>Yes</Airbag>  <!--optional-->
+				<Seats>7</Seats>
+			</Properties>
+			
+		</Item>
+		
+		<Item itemID="1003">
+				<BrandName brandID="B003">Jetta Limited Edition </BrandName>
+				
+				<Description status="Unused">The Jetta Limited Edition  is a line of limited
+				compact cars manufactured by Volkswagen. </Description>
+				
+				<Price tax="13%" currency="US Dollor">8998</Price>
+				<Quantity>3</Quantity>
+				<Manufacturer date="2010" manufacturerID="M003">Volkswagen</Manufacturer>
+				<Cartype>Hybrid</Cartype>
+				<Discount currency="US Dollor">1500</Discount>  <!--optional-->
+			<Efficiency value="2.1"  Horsepower ="170">
+				<Speed unit="miles/hour">50</Speed>
+				<BrakeDisk unit="millimeter" type="Gro disk">42</BrakeDisk>
+			</Efficiency>
+			<Properties>
+				<Dimensions unit="millimeter">
+					<Length>4060</Length>
+					<Width>1590</Width>
+					<Height>1335</Height>
+				</Dimensions>
+				<Color>Grey</Color>
+				<Airbag>Yes</Airbag>  <!--optional-->
+				<Seats>5</Seats>
+			</Properties>
+			
+		</Item>
+		
+		<Item itemID="1004">
+				<BrandName brandID="B004">I3 Tera World </BrandName>
+				
+				<Description status="Used">The BMW i3 is a B-class, high-roof hatchback manufactured and marketed 
+				by BMW with an electric powertrain using rear wheel drive via a single-speed transmission and an 
+				underfloor Li-ion battery pack .</Description>
+				
+				<Price tax="13%" currency="US Dollor">20599</Price>
+				<Quantity>2</Quantity>
+				<Manufacturer date="2017" manufacturerID="M004">Toyota</Manufacturer>
+				<Cartype>Electric</Cartype>
+				<Warranty>14 months</Warranty> 					<!--optional-->
+				<Discount currency="US Dollor">2575</Discount> <!--optional-->
+			<Efficiency value="2.1" Horsepower ="170">
+				<Speed unit="miles/hour">64</Speed>
+				<BrakeDisk unit="millimeter" type="waved disk">46</BrakeDisk>
+			</Efficiency>
+			<Properties>
+				<Selfdrive>Available</Selfdrive> <!--optional-->
+				<Dimensions unit="millimeter">
+					<Length>4370</Length>
+					<Width>1700</Width>
+					<Height>1398</Height>
+				</Dimensions>
+				<Color>Black</Color>
+				<Seats>5</Seats>
+			</Properties>
+			
+		</Item>
+		
+		<Item itemID="1005">
+				<BrandName brandID="B005">Focus Electric</BrandName>
+				
+				<Description status="Used">The Ford Focus Electric was a limited-production
+				5-door hatchback electric car produced by Ford. The Focus Electric is Ford's second 
+				production all-electric vehicle (the first being the Ford Ranger EV).</Description>
+				
+				<Price tax="13%" currency="US Dollor">11998</Price>
+				<Quantity>5</Quantity>
+				<Manufacturer date="2014" manufacturerID="M005">Toyota</Manufacturer>
+				<Cartype>Electric</Cartype>
+				<Warranty>4 months</Warranty> 					<!--optional-->
+			<Efficiency value="2.5" Horsepower ="143">
+				<Speed unit="miles/hour">74</Speed>
+				<BrakeDisk unit="millimeter" type="Grooved disk">42</BrakeDisk>
+			</Efficiency>
+			<Properties>
+				<Dimensions unit="millimeter">
+					<Length>4300</Length>
+					<Width>1650</Width>
+					<Height>1390</Height>
+				</Dimensions>
+				<Color>Silver</Color>
+				<Airbag>Yes</Airbag>  <!--optional-->
+				<Seats>5</Seats>
+			</Properties>
+			</Item>
+		
+	</Cars>
+
+</Vehicleshop>

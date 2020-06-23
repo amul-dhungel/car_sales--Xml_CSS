@@ -1,0 +1,326 @@
+
+Vehicleshop{
+	background:#FED000;
+}
+AboutUs{
+	
+		width: 400px;
+		height: 100px;
+		margin: 10px 570px;
+		transition: 1s;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background: #5fdde5;
+		font-family: sans-serif;
+		border: dotted;
+		
+		
+}
+	AboutUs:hover{
+		transform: scale(1.3);
+		background: #12947f;
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		
+		
+		
+	}
+	
+	AboutUs:before{
+		content: "AboutUs";
+		margin-left: 150px;
+		text-decoration:underline;
+		font-family: cursive;
+		font-size: 20px;
+		color:red;
+		
+		
+		
+		
+	}
+	
+	Name{
+		display:list-item;
+		
+	}
+	Name:before {
+		content: "Name:";
+		margin-left:20px;
+		text-decoration: underline;
+
+		
+	}
+	
+	Website{
+		display:list-item;
+		color:blue;
+	}
+	Website:before{
+		content: "Website:";
+		margin-left: 20px;
+		text-decoration: underline;
+		
+	}
+	TelephoneNumber{
+		display:list-item;
+	}
+	TelephoneNumber:before{
+		content:"Ph number:";
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+	Address{
+		display:list-item;
+	}
+	
+	Address:before{
+		content:"Address: ";
+		margin-left: 20px;
+		text-decoration: underline;
+		
+	}
+	
+	logo{
+	background-image: url("image/logo.png");
+	width: 120px;
+	height: 120px;
+	background-size:100% 100%;
+	background-position: center;
+	position: fixed;
+	pointer-events: none;
+	left: 10%;
+	}
+	
+Cars{
+		width: 90%;
+		padding: 20px;
+		margin: 10px auto;
+		background: rgb(0,28,84);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	Item{
+		width: 400px;
+		height: 450px;
+		background: orange;
+    margin: 10px 500px;
+    transition: 1s;
+	font-family: cursive;
+	
+	
+	
+    
+
+	}
+	Item:hover{
+		transform: scale(1.3);
+		background: #ff800a;
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		
+	}
+	
+	BrandName{
+		
+		display: block;
+	}
+	BrandName:before{
+		content: "Brand Name:    ";
+		margin-left: 10px;
+		text-decoration: underline;
+		
+		
+		
+		
+	}
+	
+	Description{
+		display: block;
+	}
+	Description:before{
+		content: "Description:    ";
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	Price{
+		display: block;
+	}
+	Price:before{
+		content: "Price: $";
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	
+	Quantity{
+		display: block;
+	}
+	
+	Quantity:before{
+		content:"Quantity:    ";
+		margin-left: 10px;
+		text-decoration: underline;
+	
+	}
+	
+	Manufacturer{
+		display: block;
+	}
+	
+	Manufacturer:before{
+		content:"Manufacturer:    ";
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	
+	Cartype{
+		display: block;
+		margin-left: 10px;
+		
+	}
+	
+	Cartype:before{
+		content:"Cartype:	";
+		text-decoration: underline;
+	}
+	Warranty{
+		display: block;
+		
+		
+	}
+	
+	Warranty:before{
+		content:"Warranty:	";
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	
+	Discount{
+		display: block;
+		
+		
+	}
+	Discount:before{
+		content: "Discount:    ";
+		text-decoration: underline;
+		margin-left: 10px;
+		
+	}
+	
+	Offer{
+		
+	display: block;
+	margin-left: 10px;
+	}
+	
+	Offer:before{
+		Content: "Offer:    ";
+		text-decoration: underline;
+	}
+	
+	Efficiency{
+		display: block;
+		
+	}
+	
+	Efficiency:before{
+		content: "Efficiency:(Speed [miles/hour]) ";
+		margin-left: 10px;
+		text-decoration: underline;
+							 
+	}
+	BrakeDisk{
+		display:block;
+		
+	}
+	
+	BrakeDisk:before{
+		content:"(BrakeDisk [millimeter]) ";
+		padding-left: 69px;
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	
+	Properties{
+		display:block;
+	}
+	
+	Properties:before{
+		content: "Properties: (Selfdrive) ";
+		margin-left: 10px;
+		text-decoration: underline;
+	}
+	
+	Dimensions{
+		display:block;
+	}
+	
+	Dimensions:before{
+	content: "(Dimensions [millimeter]";
+	padding-left: 80px;
+	text-decoration: underline;
+	}
+	
+	Color{
+		display:block;
+	}
+	
+	Color:before{
+		content:"(Color)";
+		padding-left: 80px;
+	text-decoration: underline;
+		
+	}
+	
+	Airbag{
+		display:block;
+		
+	}
+	
+	Airbag:before{
+		
+		content:"(Airbag)";
+		padding-left:80px;
+		text-decoration: underline;
+		
+	}
+	
+	Seats{
+		display:block;
+		
+	}
+	
+	Seats:before{
+		
+		content:"(Seats)";
+		padding-left:80px;
+		text-decoration: underline;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
